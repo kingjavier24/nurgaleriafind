@@ -1,0 +1,591 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.fon{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FBAC4B;
+    margin-top: -20px;
+    width: 100%;
+    height: 100px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-color:#FBAC4B;
+    margin-top: 10px;
+    margin-left:540px;
+    width: 80%;
+    height: 80px;
+}
+.menu ul li a{
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 14px;
+    background-color: #FBAC4B;
+}
+.titu{
+    
+    background-color: brown;
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-color: #FBAC4B;
+    margin-top: -85px;
+    width: 40%;
+    height: 80px;
+}
+.titu ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.un1{
+    background-size: cover;
+    margin-left: 520px;
+    height: 300px;
+}
+.un2{
+    margin-left: 420px;
+    height: 300px;
+}
+.un3{
+    margin-left: 520px;
+    height: 300px;
+}
+.un4{
+    margin-left: 400px;
+    margin-top: -5px;
+    height: 300px;
+}
+.un5{
+    margin-left: 500px;
+    margin-top: -5px;
+    height: 300px;
+}
+.carousel-inner{
+    margin-top: 20px;
+    background-color: #FBAC4B;
+}
+.nomga{
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 450px;
+    color: black;
+}
+.desga{
+    background-color: #FBAC4B;
+    margin-top: 30px;
+}
+.nosga {
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 410px;
+    color: black;
+}
+.impa{
+    
+    width: 200px;
+    margin-left: 500px;
+}
+.nompa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 450px;
+    color: black;
+
+}
+.biopa{
+    background-color: #FBAC4B;
+    width: 800px;
+    margin-left: 210px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.nomgio{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 450px;
+    color: black;
+
+}
+.imgio{
+    
+    width: 200px;
+    margin-left: 500px;
+}
+.biogio{
+    background-color: #FBAC4B;
+    width: 800px;
+    margin-left: 210px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.nomleo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 410px;
+    color: black;
+
+}
+.imleo{
+    width: 400px;
+    
+    margin-left: 430px;
+}
+.bioleo{
+    background-color: #FBAC4B;
+    width: 800px;
+    margin-left: 210px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.nompau{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 450px;
+    color: black;
+
+}
+.impau{
+    width: 330px;
+    margin-left: 450px;
+}
+.biopau{
+    background-color: #FBAC4B;
+    width: 800px;
+    margin-left: 210px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.nomre{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 400px;
+    color: black;
+
+}
+.imre{
+    width: 350px;
+    margin-left: 450px;
+}
+.biore{
+    background-color: #FBAC4B;
+    width: 800px;
+    margin-left: 210px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.nomdie{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align:center;
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    margin-left: 400px;
+    color: black;
+
+}
+.imdie{
+    width: 350px;
+    margin-left: 450px;
+}
+.biodie{
+    background-color: #FBAC4B;
+    width: 800px;
+    margin-left: 210px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.repre ul li{
+    text-decoration: none;
+    display: inline;
+    width: 100%;
+    
+}
+.repre{
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    width: 100%;
+    height: 40px;
+    background-color: #FBAC4B;
+}
+.repre ul li a{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+    word-spacing: 10px;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+@media (max-width:320px){
+    .fon{
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #FBAC4B;
+        margin-top: -18px;
+        width: 100%;
+        height: 40px;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        text-decoration: none;
+        background-color:#FBAC4B;
+        margin-top: 1px;
+        margin-left:140px;
+        width: 130px;
+        height: 40px;
+    }
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 500px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 6px;
+        background-color: #FBAC4B;
+    }
+    .menu ul li a{
+        color: black;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:2px;
+        font-family: 'Lobster', cursive;
+        font-size: 6px;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    .titu{
+        display: flex;
+        color: black;
+        flex-wrap: wrap;
+        text-decoration: none;
+        background-color: #FBAC4B;
+        margin-top: -35px;
+        width: 50%;
+        height: 30px;
+    }
+    .titu ul li a{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        font-family: 'Lobster', cursive;
+        font-size: 10px;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    .un1{
+        background-size: cover;
+        margin-left: 120px;
+        width: 100px;
+        height: 100px;
+    }
+    .un2{
+        margin-left: 120px;
+        width: 100px;
+        height: 100px;
+    }
+    .un3{
+        margin-left: 120px;
+        width: 100px;
+        height: 100px;
+    }
+    .un4{
+        margin-left: 120px;
+        margin-top: -5px;
+        width: 100px;
+        height: 100px;
+    }
+    .un5{
+        margin-left: 120px;
+        margin-top: -5px;
+        width: 100px;
+        height: 100px;
+    }
+    .carousel-inner{
+        margin-top: 20px;
+        background-color: #FBAC4B;
+    }
+    .nomga{
+        font-size: 10px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        margin-left: 82px;
+        color: black;
+    }
+    .desga{
+        width: 94%;
+        background-color: #FBAC4B;
+        margin-top: 30px;
+    }
+    .nosga {
+        margin-left: 82px;
+        font-size: 10px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        color: black;
+    }
+    .impa{
+        background-color: blue;
+        width: 160px;
+        margin-left: 50px;
+    }
+    .nompa{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        text-align:center;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        margin-left: 50px;
+        color: black;
+    
+    }
+    .biopa{
+        background-color: #FBAC4B;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    .nomgio{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        text-align:center;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        margin-left: 50px;
+        color: black;
+    
+    }
+    .imgio{
+        
+        width: 160px;
+        margin-left: 50px;
+    }
+    .biogio{
+        background-color: #FBAC4B;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    .nomleo{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        text-align:center;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        margin-left: 10px;
+        color: black;
+    
+    }
+    .imleo{
+        width: 150px;
+        
+        margin-left: 60px;
+    }
+    .bioleo{
+        background-color: #FBAC4B;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    .nompau{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        text-align:center;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        margin-left: 40px;
+        color: black;
+    
+    }
+    .impau{
+        width: 150px;
+        margin-left: 60px;
+    }
+    .biopau{
+        background-color: #FBAC4B;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    .nomre{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        text-align:center;
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        margin-left: 1px;
+        color: black;
+    
+    }
+    .imre{
+        width: 150px;
+        margin-left: 60px;
+    }
+    .biore{
+        background-color: #FBAC4B;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    .nomdie{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        text-align:center;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+        text-decoration: none;
+        margin-left: 20px;
+        color: black;
+    
+    }
+    .imdie{
+        width: 150px;
+        margin-left: 60px;
+    }
+    .biodie{
+        background-color: #FBAC4B;
+        width: 200px;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Lora', serif;
+        margin-top: 10px;
+        border: 1px solid black;
+    }
+    .repre ul li{
+        text-decoration: none;
+        display: inline;
+        width: 100%;
+        
+    }
+    .repre{
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -20px;
+        width: 94%;
+        height: 40px;
+        background-color: #FBAC4B;
+    }
+    .repre ul li a{
+        margin-left: 1px;
+        margin-top: 10px;
+        color: black;
+        word-spacing: 1px;
+        text-decoration: none;
+        font-family: 'Lora', serif;
+        font-size: 4.5px;
+    }
+    .repre ul{
+        margin-left: -30px;
+    }
+}

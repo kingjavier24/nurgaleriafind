@@ -1,0 +1,28 @@
+body{
+    background-color: #FBAC4B;
+}
+div{
+   
+    text-align: center;
+    width: 300px;
+}
+li{
+    background: #eee;
+    text-align: right;
+}
+ol{
+    list-style: none;
+    background: #eee;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0%;
+}
+.first-day{
+    background: #eee;
+    grid-column-start: 5;
+}
+.day-name{
+    background: rgba(236, 236, 236, 0.548);
+    font-weight: bold;
+    text-align: center;
+}
